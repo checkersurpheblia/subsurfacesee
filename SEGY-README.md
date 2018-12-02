@@ -1,6 +1,4 @@
 
-##SEGY DATA
-
 The two SEGY files here are data acquired for my MSc studies. Have a look at it!
 If you have trouble loading it, please contact me at anytime. 
 
