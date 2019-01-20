@@ -6,8 +6,8 @@ https://wiki.seg.org/wiki/Velocity_analysis
 Now, note that the first column is TWT (or two-way-travel-time) in seconds.
 In case you don't know that term or concept, it refers to the 
 total time taken for an elastic seismic wavefront to travel
-down through the earth - in this case no more than 30 - 50 meters 
-- and back where ground motion is recorded by geophones.
+down through the earth - in this case no more than 30 - 50 meters -
+and back where ground motion is recorded by geophones.
 
 The remaining columns correspond to root-mean-square velocity (which 
 we estimate from velocity analysis). These are shear-wave velocities,
