@@ -15,7 +15,11 @@ diagenisis and are in eviroments much, much deeper than the subsurface we are lo
 
 With that, let's get to the code. This MATLAB script is pretty simple. You 
 run litho_select.m with the required input file ('W5_EC.txt') in the 
-working directory wherever litho_select.m resides and is running. 
+working directory wherever litho_select.m resides and is running. Also,
+make sure you have the text file 'HAY_1_Vs_LOG10R_ST.txt' residing in 
+the present working directory. This text file derives from previous
+research and provides an emperical data that facilitates the calculation of S-wave
+velocity from EC.
 
 When the well-log is displayed, note that the vertical axis is in meters
 and the lateral axis in LOG10 of resistivity (NOT EC). 
