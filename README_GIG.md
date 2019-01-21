@@ -2,14 +2,16 @@
 ## Retrieving and Processing URL-Encoded (GIF) Images from the Web
 
 This Python script uses a lot of useful libraries - most of which were new to 
-me when I made it. If you take a quick look inside the CSV file, you'll see 
-a lot of rows with numerous columns with various data types. 
+me when I made it. If you take a quick look inside the CSV file ('cumberland_co_all.csv'), 
+it appears to be a complete mess. The file is made of 16 columns of data with 
+thousands of rows. Some rows retain a URL that directs to a URL-encoded 
+gif file. I want to retrieve that code, convert it to a pdf file, and
+at the end of the while process - concatenate every image together into 
+one big pdf file for manual viewing/processing.
 
-The problem here is this: I want a PDF file of EVERY image shown via the URL 
-in the CSV file. There are thousands of them, so if you're patient and perhaps 
-crazy, then fire up Excel and invidually open each hyperlink and manually save
-all the images. However, if you'd like to quickly fix and automate this task, let's 
-try to use some Python code to address and resolve this issue!
+Using Python, I have developed a script that accomplishes this overall task.
+Note that you need to following libraries to run this script:
+
 
 Before getting into any more details, I implore you to read over the question I 
 asked here that motivated this objective:
