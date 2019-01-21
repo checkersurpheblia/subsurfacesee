@@ -1,6 +1,9 @@
-The two SEG-Y files here are data acquired from past research. Have a look at them 
+The two (post-stack) SEG-Y files here are data acquired from past research. Have a look at them 
 if you have a way to read SEG-Y files! If you have trouble loading it, please contact 
-me at anytime.
+me at anytime. The two SEG-Y files are the following:
+
+1) All_CMP_xLINE_D2_stacked_FK_tmuted_tpow_n10pr_twind.su_1_ampt.su.sgy
+2) All_CMP_inLINE_D2_stacked_FK_tmuted_tpow_n10pr_twind.su_1_ampt.su.sgy
 
 Go here if you are unfamiliar with what a SEG-Y file is:
 - https://en.wikipedia.org/wiki/SEG-Y
