@@ -1,5 +1,5 @@
 
-## A Preliminary Attempt at Near-Surface EC to Vs Transforms
+## A Preliminary Attempt at Near-Surface EC to Shear-Wave Velocity Transforms
 
 There is a lot of research that has gone into calculating seismic velocities 
 from only electrical conductivity (EC) well-logs. Sometimes, info about lithology and/or 
