@@ -10,14 +10,29 @@ at the end of the while process - concatenate every image together into
 one big pdf file for manual viewing/processing.
 
 Using Python, I have developed a script that accomplishes this overall task.
-Note that you need to following libraries to run this script:
+Note that you need to following libraries below to run this script. This is 
+a section taken directly from GIG.py.
 
+```
+from urllib.request import urlretrieve
+import requests
+import pandas as pd
+from PIL import Image
+from fpdf import FPDF
+from tkinter import Tk
+from tkinter.filedialog import askopenfilename
+import ntpath
+import time
+from bs4 import BeautifulSoup
+import os
+from PyPDF2 import PdfFileMerger
+```
 
 Before getting into any more details, I implore you to read over the question I 
-asked here that motivated this objective:
+asked at StackOverflow that motivated this objective and solution:
 
 https://stackoverflow.com/questions/53109038/saving-gif-file-via-pythons-urllib
 
 GIG.py works by first asking the user to provide an input file. After that, it takes
 care of the rest! For data rows within the CSV file that do not retain a URL,
-then the Northing and Easting values are recorded and stored in a text file.
+the Northing and Easting values are recorded and stored in a text file.
