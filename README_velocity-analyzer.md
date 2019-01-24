@@ -8,5 +8,5 @@ past research ('xline_twt_model.txt').
 
 The function accepts only one argument - the text file - 
 and proceeds to generate a contour plot of the 
-processed velocity model and a summary of stastical 
-info regarding the model
+processed velocity model and a summary of statistical 
+info of the model
