@@ -3,8 +3,8 @@
 
 This scripted R function performs a simple operation
 on a text file to present basic statistical info 
-of a shear-wave velocity model I generated from 
-past research ('xline_twt_model.txt').
+of a shear-wave time-domain (TWT) velocity model 
+I generated for past research ('xline_twt_vel.txt').
 
 The function accepts only one argument - the text file - 
 and proceeds to generate a contour plot of the 
